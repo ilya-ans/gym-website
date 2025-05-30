@@ -1,0 +1,22 @@
+.footer {
+  border-top: 3px solid #41A6F9;
+  color: #4A1434;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.number {
+    text-align: right;
+}
+

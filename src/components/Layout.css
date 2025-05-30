@@ -1,0 +1,17 @@
+/* Для body и html — чтобы заняли всю высоту экрана */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Основной контейнер страницы */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% от высоты окна */
+}
+
+/* Основной контент растягивается, чтобы "вытолкнуть" footer вниз */
+.content {
+  flex: 1;
+}

@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 3px solid #41A6F9;
+  color: #4A1434;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+}
+
+.header-section {
+  flex: 1;
+  margin: 20px;
+
+}
+
+.header-section p {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.sections {
+  text-align: right;
+}
