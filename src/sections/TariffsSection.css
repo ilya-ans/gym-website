@@ -1,0 +1,52 @@
+.tariffs-section {
+  padding: 60px 75px;
+  background-color: #fff;
+}
+
+.tariffs-title {
+  margin-top: 0px;
+  font-size: 45px;
+  color: #4A1434;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.tariffs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .tariffs-grid {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .tariffs-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.tariffs-section {
+  padding: 30px 10px;
+  background-color: #fff;
+}
+
+}
+
+@media (max-width: 859px) {
+
+  .tariffs-title {
+    margin-top: 0px;
+    font-size: 36px;
+    color: #4A1434;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+}

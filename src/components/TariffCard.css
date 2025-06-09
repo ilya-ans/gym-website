@@ -1,0 +1,40 @@
+.tariff-card {
+  background-color: #FFE8E2;
+  border-radius: 25px;
+  padding: 30px;
+  color: #4A1434;
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+}
+
+.tariff-card h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.tariff-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.tariff-card li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 859px) {
+
+  .tariff-card h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .tariff-card li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+}

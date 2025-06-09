@@ -1,0 +1,56 @@
+.trainers-section {
+  padding-top: 100px;
+  padding: 0 75px;
+}
+
+.trainers-title {
+  font-size: 45px;
+  color: #4A1434;
+  text-align: left;
+  
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1132px) {
+  .trainers-section {
+    padding-top: 20px;
+    padding: 0 20px;
+  }
+  .trainers-title {
+    font-size: 36px;
+    color: #4A1434;
+    text-align: center;
+  
+    margin-bottom: 60px;
+  }
+
+}
+
+.trainer-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.trainer-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1 1 200px;
+}
+
+.trainer-form button {
+  background-color: #41A6F9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.trainer-form button:hover {
+  background-color: #2d8cdc;
+}

@@ -1,0 +1,62 @@
+.club-block {
+  display: flex;
+  
+  gap: 40px;
+  margin-bottom: 60px;
+  
+  flex-wrap: wrap;
+}
+
+.club-block.left {
+  flex-direction: row;
+}
+
+.club-block.right {
+  flex-direction: row-reverse;
+}
+
+.club-image img {
+  height: 428px;
+  width: auto;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.club-text {
+  flex: 1;
+  color: #4A1434;
+  min-width: 300px;
+}
+
+.club-text h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.club-text p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* Адаптивность */
+@media (max-width: 1132px) {
+  .club-block {
+    flex-direction: column !important;
+    text-align: center;
+    padding: 0 0;
+  }
+
+  .club-text h2 {
+    font-size: 32px;
+  }
+
+  .club-text p {
+    font-size: 18px;
+  }
+
+  .club-image img {
+    width: 100%;
+    height: auto;
+  }
+}

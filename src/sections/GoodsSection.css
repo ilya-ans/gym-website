@@ -1,0 +1,27 @@
+.goods-section {
+  padding-top: 100px;
+  padding: 0 75px;
+}
+
+.goods-title {
+  font-size: 45px;
+  color: #4A1434;
+  text-align: left;
+  
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1132px) {
+  .goods-section {
+    padding-top: 20px;
+    padding: 0 20px;
+  }
+  .goods-title {
+    font-size: 36px;
+    color: #4A1434;
+    text-align: center;
+  
+    margin-bottom: 60px;
+  }
+
+}

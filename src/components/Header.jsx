@@ -1,27 +1,39 @@
-import './Header.css'; 
-
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import './Header.css';
 
 export default function Header() {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
 
     <header className="header">
 
       <div className="container">
 
-        <div className="header-section">
+        <Link to="/" className="logo">
 
-          <p><Link to="/">Главная</Link></p>
-        
-        </div>
+          <img src="/images/gym-logo.png" alt="logo" className="logo-icon" />
+          <span className="logo-text">YOURGYM</span>
 
-        <div className="header-section">
-          <div className="sections">
-          <p><Link to="/clubs">Клубы</Link></p>
-          <p><Link to="/prises">Тарифы</Link></p>
-          <p><Link to="/instructors">Тренеры</Link></p>
-          <p><Link to="/goods">Товары</Link></p>
-          </div>
+        </Link>
+
+        <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
+
+          <Link to="/clubs" onClick={() => setIsMenuOpen(false)}>Клубы</Link>
+          <Link to="/prises" onClick={() => setIsMenuOpen(false)}>Тарифы</Link>
+          <Link to="/instructors" onClick={() => setIsMenuOpen(false)}>Тренеры</Link>
+          <Link to="/goods" onClick={() => setIsMenuOpen(false)}>Товары</Link>
+          
+        </nav>
+
+        <div className="burger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+
+          <span className="line" />
+          <span className="line" />
+          <span className="line" />
+
         </div>
 
       </div>

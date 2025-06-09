@@ -1,3 +1,7 @@
+import ClubsSection from "../sections/ClubsSection";
+
 export default function ClubsPage() {
-    return <h1>Наши залы</h1>;
+    return (
+      <ClubsSection />
+    );
   }

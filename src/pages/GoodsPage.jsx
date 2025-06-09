@@ -1,3 +1,7 @@
-export default function GoodsPage() {
-    return <h1>Товары</h1>;
+import GoodsSection from "../sections/GoodsSection";
+
+export default function ClubsPage() {
+    return (
+      <GoodsSection />
+    );
   }

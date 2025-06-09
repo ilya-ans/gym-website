@@ -1,3 +1,13 @@
+import Hero from '../components/Hero';
+import News from '../sections/NewsSection';
+import Contacts from '../sections/contacts';
+
 export default function HomePage() {
-    return <h1>Главная страница</h1>;
+    return (
+      <div>
+        <Hero />
+        <News />
+        <Contacts />
+      </div>
+    );
   }

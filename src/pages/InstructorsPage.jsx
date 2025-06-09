@@ -1,3 +1,7 @@
-export default function InstructorsPage() {
-    return <h1>Наши тренеры</h1>;
+import TrainersSection from "../sections/TrainersSection";
+
+export default function ClubsPage() {
+    return (
+      <TrainersSection />
+    );
   }

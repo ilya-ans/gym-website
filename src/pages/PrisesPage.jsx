@@ -1,3 +1,11 @@
+import TariffsSection from "../sections/TariffsSection";
+import SalesSection from "../sections/SalesSection";
+
 export default function PrisesPage() {
-    return <h1>Тарифы</h1>;
+    return (
+      <div>
+        <TariffsSection />
+        <SalesSection />
+      </div>
+    );
   }

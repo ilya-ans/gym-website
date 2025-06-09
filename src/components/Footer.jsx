@@ -1,24 +1,35 @@
-import './Footer.css'; 
+import './Footer.css';
 
 export default function Footer() {
+
   return (
 
     <footer className="footer">
 
-      <div className="container">
+      <div className="footer-container">
 
-        <div className="footer-section">
+        <div className="social-icons">
 
-          <p>Здесь будут картинки-ссылки</p>
+          <a href="https://vk.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/vk.jpg" alt="VK" />
+          </a>
+
+          <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+            <img src="/images/telegram.jpg" alt="Telegram" />
+          </a>
+
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/youtube.jpg" alt="YouTube" />
+          </a>
+
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/instagram.jpg" alt="Instagram" />
+          </a>
 
         </div>
 
-        <div className="footer-section">
-            <div className="number">
-                <p>Здесь будет номер</p>
-            </div>
-        </div>
-        
+        <div className="phone-number">8 977 933 15 15</div>
+
       </div>
 
     </footer>
